@@ -5,4 +5,4 @@ if miles_driven.isdigit() and gallons_used.isdigit():
     gallons_used = float(gallons_used)
     print("Miles per gallon: ", miles_driven/gallons_used)
 else: 
-    print("Invalid Input! Please enter a number")
+    print("Invalid Input! Please enter only numbers")
