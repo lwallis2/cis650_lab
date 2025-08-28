@@ -3,7 +3,7 @@ age = input("Enter your age: ")
 my_name = "Luc"
 
 if name == "":
-    print("Name cannot be blank.")
+    print("Name cannot be blank!")
 elif not age.isdigit():
     print("Age has to be a number")
 else: 
