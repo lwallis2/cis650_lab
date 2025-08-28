@@ -2,10 +2,8 @@ name = input("Enter your name: ")
 age = input("Enter your age: ")
 my_name = "Luc"
 
-#Check if name ist blank
 if name == "":
     print("Name cannot be blank.")
-#Check if age is a number
 elif not age.isdigit():
     print("Age has to be a number")
 else: 
